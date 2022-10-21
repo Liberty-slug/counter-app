@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{
+    background-color: hsl(210, 36%, 96%);
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    background-color: #fff;
+    width: 40%;
+    /* height: 40vh; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-block: 70px;
+}#counter{
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+.button{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.button #decrement{
+    background-color: #000075;
+    color: #fff;
+}
+.button #reset{
+    background-color: #750000;
+    color: #fff;
+}
+.button #increment{
+    background-color: #007500;
+    color: #fff;
+}
