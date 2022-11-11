@@ -48,3 +48,9 @@ button{
     background-color: #007500;
     color: #fff;
 }
+
+@media (max-width: 600px){
+    .content{
+        width:80%;
+    }
+}
